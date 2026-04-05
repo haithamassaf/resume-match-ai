@@ -1,17 +1,10 @@
 """ResumeMatch AI -- Streamlit frontend."""
 
-import subprocess
 import sys
 from pathlib import Path
 
 # Add project root to path so imports work when running via `streamlit run`
 sys.path.insert(0, str(Path(__file__).parent.parent))
-
-# Download spaCy model if not present (needed for Streamlit Cloud)
-try:
-    __import__("en_core_web_sm")
-except ImportError:
-    subprocess.check_call([sys.executable, "-m", "spacy", "download", "en_core_web_sm"])
 
 import streamlit as st
 
