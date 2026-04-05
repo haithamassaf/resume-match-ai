@@ -171,3 +171,7 @@ else:
 
 if analyze_clicked:
     _run_analysis(pdf_path, jd_text, use_semantic, use_rewriter)
+
+# ── Footer ───────────────────────────────────────────────────
+st.divider()
+st.caption("Built by Haitham Assaf")
