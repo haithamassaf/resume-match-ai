@@ -6,8 +6,7 @@ python-dotenv>=1.0.0
 PyMuPDF
 
 # NLP
-spacy>=3.7.0,<3.9.0
-https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
+spacy
 scikit-learn
 
 # Backend
