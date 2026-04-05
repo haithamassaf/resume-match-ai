@@ -1,19 +1,7 @@
-# Core
-anthropic>=0.42.0
-python-dotenv>=1.0.0
-
-# PDF Parsing
-PyMuPDF
-
-# NLP
-spacy
-scikit-learn
-
-# Backend
-fastapi
-uvicorn
-python-multipart
-
-# Frontend
+anthropic
+python-dotenv
+PyMuPDF==1.24.14
+spacy==3.7.5
+scikit-learn==1.5.2
 streamlit
 plotly
