@@ -3,18 +3,18 @@ anthropic>=0.42.0
 python-dotenv>=1.0.0
 
 # PDF Parsing
-PyMuPDF>=1.25.0
+PyMuPDF
 
 # NLP
-spacy>=3.7.0,<3.8.0
+spacy>=3.7.0,<3.9.0
 https://github.com/explosion/spacy-models/releases/download/en_core_web_sm-3.7.1/en_core_web_sm-3.7.1.tar.gz
-scikit-learn>=1.6.0
+scikit-learn
 
 # Backend
-fastapi>=0.115.0
-uvicorn>=0.34.0
-python-multipart>=0.0.18
+fastapi
+uvicorn
+python-multipart
 
 # Frontend
-streamlit>=1.41.0
-plotly>=5.24.0
+streamlit
+plotly
